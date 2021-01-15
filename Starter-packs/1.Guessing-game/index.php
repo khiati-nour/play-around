@@ -13,7 +13,11 @@ require_once 'classes/GuessingGame.php';
 
 // Start the game
 // As this game is rather simple, one class should be sufficient
-$game = new GuessingGame(3);
-$game->run();
+
+
+
+$game = new GuessingGame($maxGuesses);
+echo $game->runAgain();
+
 
 require 'view.php';

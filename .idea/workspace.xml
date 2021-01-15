@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32ebdc8b-47e5-4c09-a537-9abf304d874d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/classes/GuessingGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/classes/GuessingGame.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/view.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1n6CnwwtLfhdvfVURkCyJisxh0Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5.OOP-introduction/index.php" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32ebdc8b-47e5-4c09-a537-9abf304d874d" name="Default Changelist" comment="" />
+      <created>1610701323634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610701323634</updated>
+      <workItem from="1610701324878" duration="4216000" />
+      <workItem from="1610705595643" duration="3648000" />
+      <workItem from="1610711131201" duration="2667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1610701720706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1610701720706" />
+    <state x="586" y="198" key="#Inspections" timestamp="1610705979348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1610705979348" />
+    <state x="667" y="163" key="#PHP" timestamp="1610701722414">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1610701722414" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610711282292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610711282292" />
+  </component>
+</project>
