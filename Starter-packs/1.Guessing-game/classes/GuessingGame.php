@@ -1,53 +1,65 @@
 <?php
-
+session_start();
 class GuessingGame
 {
     public $maxGuesses;
     public $secretNumber;
     public $guessNumber;
-    public $i;
+    public $try=0;
     // TODO: set a default amount of max guesses
-    public function __construct( )
+    public function __construct( int $maxGuesses = 3)
     {
         // We ask for the max guesses when someone creates a game
         // Allowing your settings to be chosen like this, will bring a lot of flexibility
 
-        $this->secretNumber = rand(1,3);
-        $this->maxGuesses=$_POST['maxGuesses'];
-        $this->guessNumber=$_POST['guessNumber'];
+
+        $this->maxGuesses =$maxGuesses;
+        if(!empty($_SESSION["try"])){
+            $this->try = $_SESSION["try"];}
     }
-    public function runAgain(){
-        $this -> i=0;
-        echo "try {$this->i}";
-        while(($this-> i < $this ->maxGuesses) ||($this->guessNumber == $this->secretNumber) ){
-            $this-> run();
-            $this -> i ++;
+    public function generateSecretNumber(){
+
+
+
+
+        if (empty($this->secretNumber)){
+            $this->secretNumber =rand(1,10);
+            $_SESSION["secretNumber"] = $this->secretNumber;
+            var_dump($this->secretNumber);
+
         }
-        echo $this->i;
+        return  $this->secretNumber;
+
+
     }
+
 
     public function run()
-    {   /*echo $this->guessNumber.'</br>';*/
-        echo $this->maxGuesses.'</br>';
-      /*  echo $this->secretNumber.'</br>';*/
-        $this->i = 0;
-        // This function functions as your game "engine"
-        // It will run every time, check what needs to happen and run the according functions (or even create other classes)
+    {
+       $this-> generateSecretNumber();
+       $this->guessNumber=$_POST['guessNumber'];
 
-
+        if(!empty($_POST['guessNumber'])){
+            $this->try++;
             if ($this->guessNumber == $this->secretNumber) {
-                echo "Awesome! You number {$this->guessNumber} was correct. You can be named many things, hungry not being one of them.";
-
+               $this->playerWins();
             } else if ($this->guessNumber == $this->secretNumber - 1) {
-                echo "So close, but you just missed it! Are you in a class that started on the thirteenth or what?";
-
-
+                $this->close();
             } else {
-                echo "Bummer... You guessed {$this->guessNumber} and the secret number was {$this->secretNumber} ";
-
+               $this->playerLoses();
             }
 
         }
+
+        $_SESSION["try"] = $this->try;
+        //var_dump($_SESSION["attempts"]);
+        //var_dump($this->attempts);
+        if($this->try > 3){
+            $this->playerLoses();
+        }
+
+
+    }
 
 
 
@@ -62,15 +74,22 @@ class GuessingGame
     public function playerWins()
     {
         // TODO: show a winner message (mention how many tries were needed)
+        echo "Awesome! You number {$this->guessNumber} was correct. You can be named many things, hungry not being one of them.";
+
     }
 
     public function playerLoses()
     {
         // TODO: show a lost message (mention the secret number)
+        echo "Bummer... You guessed {$this->guessNumber} and the secret number was {$this->secretNumber} ";
+        $this->reset();
     }
+    public function close(){
+        echo "So close, but you just missed it! Are you in a class that started on the thirteenth or what?";
 
+    }
     public function reset()
     {
-        // TODO: Generate a new secret number and overwrite the previous one
-    }
+        $_SESSION["try"] = 0;
+        $this->try = 0;    }
 }

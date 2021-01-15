@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ebdc8b-47e5-4c09-a537-9abf304d874d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/classes/GuessingGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/classes/GuessingGame.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/view.php" afterDir="false" />
@@ -40,7 +41,7 @@
       <updated>1610701323634</updated>
       <workItem from="1610701324878" duration="4216000" />
       <workItem from="1610705595643" duration="3648000" />
-      <workItem from="1610711131201" duration="2667000" />
+      <workItem from="1610711131201" duration="8980000" />
     </task>
     <servers />
   </component>

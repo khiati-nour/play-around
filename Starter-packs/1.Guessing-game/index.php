@@ -13,11 +13,22 @@ require_once 'classes/GuessingGame.php';
 
 // Start the game
 // As this game is rather simple, one class should be sufficient
+if (isset($_POST["submit"]) && (!empty($_POST["guessNumber"]))){
 
 
 
-$game = new GuessingGame($maxGuesses);
-echo $game->runAgain();
+    $game = new GuessingGame();
+
+
+    $game->run();
+
+    echo '<h2>$game</h2>';
+    echo "<pre>";
+    var_dump($game);
+    echo "</pre>";
+    echo "<br>";
+
+};
 
 
 require 'view.php';
