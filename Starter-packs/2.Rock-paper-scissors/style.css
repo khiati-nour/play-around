@@ -1,0 +1,62 @@
+body{
+
+
+    /* Full height */
+    height: 100vh;
+    font-family: 'Goldman', cursive;
+
+    font-size: 20px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+
+}
+/*.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}*/
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    hight: 15px;
+}
+form{
+    padding-top: 80px;
+}
+
+.myDiv {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    width: 800px;
+    height: 250px;
+
+    margin: 0 auto;
+
+
+}
+
+.glow{
+    background-color: cyan;
+
+}

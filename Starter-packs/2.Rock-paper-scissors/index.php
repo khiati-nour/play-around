@@ -9,10 +9,22 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 // Load you classes
-require_once 'classes/RockPaperScissors.php.php';
-
+require_once 'classes/RockPaperScissors.php';
+if (isset($_POST["rock"]) || isset($_POST["scissors"]) || isset($_POST["paper"]) ) {
 // Start the game
-$game = new RockPaperScissors();
-$game->run();
+    $game = new RockPaperScissors();
 
+    $game->run();
+
+    echo '<h2>$game</h2>';
+    echo "<pre>";
+    var_dump($game);
+    echo "</pre>";
+    echo "<br>";
+    echo "<pre>";
+    var_dump($game->score);
+    echo "</pre>";
+    echo "<br>";
+
+}
 require 'view.php';
