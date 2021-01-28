@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="32ebdc8b-47e5-4c09-a537-9abf304d874d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Starter-packs/3.Blackjack/Blackjack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Starter-packs/3.Blackjack/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Starter-packs/3.Blackjack/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/classes/GuessingGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/classes/GuessingGame.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/1.Guessing-game/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starter-packs/2.Rock-paper-scissors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/2.Rock-paper-scissors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Starter-packs/3.Blackjack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Starter-packs/3.Blackjack/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5.OOP-introduction/index.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Starter-packs/2.Rock-paper-scissors" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -41,12 +61,23 @@
       <updated>1610701323634</updated>
       <workItem from="1610701324878" duration="4216000" />
       <workItem from="1610705595643" duration="3648000" />
-      <workItem from="1610711131201" duration="8980000" />
+      <workItem from="1610711131201" duration="18428000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1610701720706">
@@ -61,9 +92,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1610701722414" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610711282292">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611133005224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610711282292" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611133005224" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Starter-packs/1.Guessing-game/classes/GuessingGame.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

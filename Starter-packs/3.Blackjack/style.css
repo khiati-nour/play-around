@@ -1,0 +1,91 @@
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    hight: 15px;
+}
+.result{
+    /*flex: 0 0 25vh;*/
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 800px;
+    height: 150px;
+
+    margin: 0 auto;
+
+}
+
+.buttons{
+    padding-top: 30px;
+    flex: 0 0 25vh;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.content {
+
+    flex: 1 1 50vh;
+
+    display: flex;
+    flex-direction: row;
+}
+.Player{
+    flex: 0 0 700px;
+
+
+}
+.computer{
+
+    flex: 0 0 700px;
+
+
+}
+
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 175px;
+    width: 150px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

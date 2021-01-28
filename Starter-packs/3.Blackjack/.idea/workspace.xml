@@ -19,13 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82877a48-ae0e-4f7f-a51d-bd054146495e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../3.Blackjack/Blackjack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3.Blackjack/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../3.Blackjack/view.php" afterDir="false" />
+    <list default="true" id="2e1f1b59-a3c1-43c9-a4cf-82f4f8358841" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Blackjack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.Blackjack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../3.Blackjack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Rock-paper-scissors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Rock-paper-scissors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +35,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1nHhTgggB12VGLwfzPimfcZBtEe" />
+  <component name="ProjectId" id="1nKH7FVCHLUVnDyxtGHNx5CVj48" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,23 +48,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../3.The-Mountain/3.Order-form" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/js-blackjack-card-game" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82877a48-ae0e-4f7f-a51d-bd054146495e" name="Default Changelist" comment="" />
-      <created>1611052933275</created>
+      <changelist id="2e1f1b59-a3c1-43c9-a4cf-82f4f8358841" name="Default Changelist" comment="" />
+      <created>1611131692369</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611052933275</updated>
-      <workItem from="1611052934980" duration="8535000" />
-      <workItem from="1611133009178" duration="4831000" />
-      <workItem from="1611562719170" duration="1198000" />
-      <workItem from="1611654233260" duration="599000" />
+      <updated>1611131692369</updated>
+      <workItem from="1611131693808" duration="42535000" />
+      <workItem from="1611562723058" duration="599000" />
+      <workItem from="1611654228357" duration="1205000" />
     </task>
     <servers />
   </component>
@@ -91,17 +81,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1611053120852">
+    <state x="60" y="175" key="#CLI_Interpreters" timestamp="1611132274171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1611053120852" />
-    <state x="667" y="163" key="#PHP" timestamp="1611053122835">
+    <state x="60" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1611132274171" />
+    <state x="187" y="163" key="#PHP" timestamp="1611132276409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1611053122835" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611133449835">
+    <state x="187" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1611132276409" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611131774877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611133449835" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611131774877" />
   </component>
 </project>
